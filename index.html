@@ -1,96 +1,53 @@
+<!doctype html>
+<html>
 <head>
-<meta name="viewport" content="width=device-width" />
-<style type="text/css">
-body {padding: 5px}
-.group {margin-top: 10px;background-color: #eee}
-h1 {font-size: 1.5em;display : inline;margin: 0}
-a:link, a:visited {
-  display: inline-block;
-  font-size: 1em;
-  line-height: 1.4em;
-  border: 0px solid #999;
-  padding: 2px 8px;
-  margin: 4px 0;
-  text-decoration:none;
-  background-color: #eee;
-  color:black
-}
-a:hover, a:active {background-color: gray;color: white}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <script src="marked.js"></script>
+  <link rel="stylesheet" href="github.css">
+  <style>
+@media (max-width: 767px) { body { padding: 15px; } }body { box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;
+       padding: 45px; }</style>
+  <title>mtv's mark</title>
 </head>
-<div class="group">
-  <h1>News</h1>
-  <a href="http://rebang.today/">rebang</a>
-  <a href="https://www.anyknew.com/rankings">热点</a>
-  <a href="http://news.ifeng.com/">凤凰新闻</a>
-  <a href="http://news.sina.com.cn/">新浪新闻</a>
-  <a href="http://www.takungpao.com/">大公网</a>
-  <a href="http://www.people.com.cn/">人民网</a>
-  <a href="http://www.xinhuanet.com/">新华网</a>
-</div>
+<body>
+  <div id="$m" class="markdown-body"></div>
+  <textarea id="$t" style="display:none">
+## 常用
+[ddooo](https://ddooo.com/)
+[tys影视下载](https://yts.am/)
+[海盗湾镜像](https://cn.bing.com/search?q=%E6%B5%B7%E7%9B%97%E6%B9%BE%20%E9%95%9C%E5%83%8F)
+[workflowy](https://www.workflowy.com/)
+## game
+[散月的星空](https://www.sygame515.com/) [geme中文网](https://www.ns211.com/)
+## app
+[应用汇](http://appchina.com)
+[办文绿软](https://www.5071211.com/)
+[果核剥壳](https://www.ghxi.com/)
+[异星](https://www.yxssp.com/)
+[3322](https://www.32r.com/)
+[天天软件](http://www.3673.com/)
+[3dm](https://www.3dmgame.com/)
+[mefcl.Gapp](https://www.mefcl.com/)
+[vxat](https://www.vxat.com/)
+## 娱乐
+[NF工厂](https://www.netflixgc.com/)
+[布布](https://bbys.app)
+[7味](https://www.qwavi.com/)
+[fofo](https://fofo11.com/)
+[修罗](https://xlys.me) //
+[mcya音乐](https://music.mcya.cn/)
+[音乐魔石](https://yym4.net/)
+[zz123](https://zz123.com/) //
+[鸠摩](https://www.jiumodiary.com/)
+## git
+[githost](https://hosts.gitcdn.top/)
+[ahhhhfs](https://www.ahhhhfs.com/)
+[list2](https://ifxdh.com/)
+[rainymood](https://www.rainymood.com/)
+[deepwiki](https://deepwiki.com/)
+  </textarea>
+  <script>$m.innerHTML = marked.parse($t.value);</script>
+</body>
+</html>
 
-<div class="group">
-  <h1>Movie</h1>
-  <a href="https://iqiyis.com/">iqiyis</a>
-  <a href="https://www.luhuitang.com/">看剧网</a>
-  <a href="http://mp4pa.com">MP4pa</a>
-  <a href="https://ysgccc.com/">影视工场</a>
-  <a href="https://zhenbuka.cc/">真不卡</a>
-  <a href="https://www.mini4k.com//">mini4k</a>
-</div>
-
-<div class="group">
-  <h1>Music</h1>
-  <a href="http://tool.liumingye.cn/music/">MyfreeMP3</a>
-  <a href="http://xialala.com/">极乐</a>
-  <a href="https://www.hifini.com/">Hifini</a>
-  <a href="https://www.gequbao.com/">gequbao</a>
-</div>
-  
-<div class="group">
-  <h1>Other</h1>
-  <a href="https://dwgfree.com/">dwgfree</a>
-  <a href="https://chrome.zzzmh.cn/">chrome插件</a>
-  <a href="https://www.dayi.org.cn/">大医网</a>
-  <a href="https://www.yixue.com/">医学百科wiki</a>
-  <a href="https://www.book123.info/">无名图书</a>
-  <a href="http://www.jiumodiary.com/">鸠摩</a>
-  <a href="https://www.zhelper.net/">图书搜索</a> 
-  <a href="https://tuostudy.com/">图欧学习资源</a>
-  <a href="https://pngimg.com/">pngimg</a>
-  <a href="https://www.tosound.com/">audiodown</a>
-  <a href="https://github.com/gorhill/uBlock/releases/">ublock</a>
-  <a href="https://www.cidianwang.com/">词典网</a>
-  <a href="https://www.xtdowner.com">短视频下载</a>
-</div>
-
-<div class="group">
-  <h1>Soft</h1>
-  <a href="http://www.runker.net/">行客</a>
-  <a href="http://www.ddooo.com">Ddooo</a>
-  <a href="http://www.rjno1.com">No1</a>
-  <a href="http://www.ghxi.com">果核剥壳</a>
-  <a href="http://www.423down.com">423down</a>
-  <a href="http://www.zhanshaoyi.com/rjxz.html">我爱分享</a>
-  <a href="https://xclient.info/">Xclient</a>
-  <a href="https://www.yxssp.com/">异星</a>
-  <a href="https://appstorrent.ru/">appstorrent</a>
-  <a href="https://www.i3zh.com/">i3</a>
-  <a href="https://www.coolexe.com/">杂货铺</a>
-  <a href="https://www.crxsoso.com/">crxsoso</a>
-  <a href="https://www.litiaotiao.com/">李跳跳</a>
-  <a href="https://myzwq.com/">初念瑾</a>
-</div>
-
-<div class="group">
-  <h1>Main</h1>
-  <a href="http://www.hao123.com/mail">邮箱</a>
-  <a href="http://www.guangdiu.com">逛丢</a>
-  <a href="http://taobao.com">淘宝</a>
-  <a href="https://jd.com">京东</a>
-  <a href="http://chiphell.com">Chiphell</a>
-  <a href="http://cowtransfer.com">奶牛</a>
-  <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华开源镜像</a>
-  
-  <a href="https://drop.lol/kmina">drop.lol</a>
-</div>
